@@ -1,0 +1,25 @@
+# abrir terminal: crtl + j
+
+# mudar coluna das linhas: crtl + [
+
+# salval : crtl + s
+
+# escrever em varias linhas: alt + clicar com botão do mouse esquerdo
+
+# A principal finalidade da instrução match é simplificar a lógica de 
+# código ao facilitar o trabalho com diferentes padrões de dados. 
+# Isso pode tornar o código mais legível e conciso em situações onde 
+# uma cadeia de if elif else pode se tornar complicada e difícil de manter.
+
+#opcao_escolhida = int(input('Escolha uma opção: '))
+#match opcao_escolhida:
+#    case 1:
+#        print('Adicionar restaurante')
+#    case 2:
+#        print('Listar restaurantes')
+#    case 3:
+#        print('Ativar restaurante')
+#    case 4:
+#        print('Finalizar app')
+#    case _:
+#        print('Opção inválida!')

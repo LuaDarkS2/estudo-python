@@ -1,0 +1,29 @@
+snake_case para variaveis, funções e métodos
+PascalCase para classes
+SCREAMING_SNAKE_CASE para constantes
+
+da para usar aspa simples, duplas ou triplas, mas é importante manter o padrão no projeto
+
+aspas triplas pode ser usada para pular linhas ou pode usar apenas o \n no final da frase
+
+interpolação de variáveis com f-string, usando chaves {}, da para fazer formatação de formas boas
+
+para transforma em num inteiro, primeiro escreve em string (texto), depois tranforma em inteiro,
+usando int antes do input, assim o input vai ser transformado em inteiro, e não mais em string:
+opcao_escolhida = int(input('Escolha uma opção: '))
+
+listas x tuplas: 
+    * As listas são ideais quando você precisa de uma coleção de elementos que pode ser 
+    modificada ao longo do tempo.
+    * Já as tuplas são apropriadas quando se deseja garantir que os elementos não sejam 
+    alterados após a criação. Isso é útil para dados que devem permanecer constantes ao 
+    longo do tempo.
+
+Loop : for and while:
+    * O loop for é utilizado quando se conhece previamente o número de iterações que 
+    devem ser realizadas. Ele é especialmente eficaz ao percorrer elementos em sequências, 
+    como listas, tuplas, strings ou ranges.
+    * O loop while, diferente do for, é utilizado quando o número de iterações não é conhecido 
+    de antemão, mas ainda assim depende de uma condição específica para manter o bloco de código 
+    em repetição. Ele continua a executar o bloco de código enquanto a condição fornecida for 
+    avaliada como verdadeira.
