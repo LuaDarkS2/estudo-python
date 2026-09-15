@@ -25,7 +25,7 @@ def voltar_ao_menu_principal():
 
 def opcao_invalida():
     os.system('cls') #limpa a tela do terminal
-    print('Opçãoo Invalida!\n')
+    print('Opção Invalida!\n')
     voltar_ao_menu_principal()
 
 def exibir_subtitulo(texto):
