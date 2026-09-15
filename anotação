@@ -27,3 +27,8 @@ Loop : for and while:
     de antemão, mas ainda assim depende de uma condição específica para manter o bloco de código 
     em repetição. Ele continua a executar o bloco de código enquanto a condição fornecida for 
     avaliada como verdadeira.
+
+Estrutura de dados chamada dicionario, é semlhante a uma estrutura de chave valor
+    * nela tem um conchetes que significa que vou ter uma listas
+    * dentro dele, um abre fecha chves, onde significa que vou manter todas
+    as informações que tenho de algo esolhido.
