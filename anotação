@@ -32,3 +32,6 @@ Estrutura de dados chamada dicionario, é semlhante a uma estrutura de chave val
     * nela tem um conchetes que significa que vou ter uma listas
     * dentro dele, um abre fecha chves, onde significa que vou manter todas
     as informações que tenho de algo esolhido.
+
+docstring : ferramenta que se coloca dentro das funções, para fazer com que a função seja mais descritiva.
+    * Não é necessario ter ela no codigo, mas é bom para informação.
