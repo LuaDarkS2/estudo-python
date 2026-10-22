@@ -150,7 +150,7 @@ def escolher_opcao():
         opcao_invalida()
 
 def main():
-    '''Essa função é responsavel por iniciar o programa'''
+    '''Essa função é responsavel por iniciar o programa.'''
     os.system('cls') #limpa a tela do terminal
     exibir_nome_do_programa()
     exibir_opcoes()
