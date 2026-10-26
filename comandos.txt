@@ -21,11 +21,5 @@
 #        print('Ativar restaurante')
 #    case 4:
 #        print('Finalizar app')
-#    case _:
+#    case :
 #        print('Opção inválida!')
-
-#Função dir = onde coloca na frente da classe no print
-#   * usando mostra um serie de informações
-#   * quando ele mais faz sentido de usar, é quando voce não conhece a classe. Quando entender.
-
-#Função vars = quando quer ver o dicionario de atributos da classe.

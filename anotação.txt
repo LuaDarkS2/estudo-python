@@ -35,3 +35,16 @@ Estrutura de dados chamada dicionario, é semlhante a uma estrutura de chave val
 
 docstring : ferramenta que se coloca dentro das funções, para fazer com que a função seja mais descritiva.
     * Não é necessario ter ela no codigo, mas é bom para informação.
+
+Função dir = onde coloca na frente da classe no print
+    * usando mostra um serie de informações
+    * quando ele mais faz sentido de usar, é quando voce não conhece a classe. Quando entender.
+    * ele puxa uma serie de informações
+
+Função vars = quando quer ver o dicionario de atributos da classe.
+
+Função __init__ = metodo construtor
+    * sempre que cria a instancia de um obejto ele é chamado.
+    * e ele vai esperar alguma informação.
+    * e para conseguir informar que cada objeto tem suas proprias informações, usa self dentro do parenteses
+    

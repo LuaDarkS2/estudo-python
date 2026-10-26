@@ -1,16 +1,13 @@
 class Restaurante:
-    nome = ''
-    categoria = ''
-    ativo = False
+    def __init__(self, nome, categoria):
+        self.nome = nome
+        self.categoria = categoria
+        self.ativo = False
 
-restaurante_praca = Restaurante()
-restaurante_praca.nome = 'Restaurante da Praça'
-restaurante_praca.categoria = 'Comida Caseira'
-
-restaurante_pizza = Restaurante()
+restaurante_praca = Restaurante('Praça','Comida Caseira')
+restaurante_pizza = Restaurante('Pizza','Comida Italiana')
 
 restaurantes = [restaurante_praca, restaurante_pizza]
 
 print(vars(restaurante_praca))
-#print(dir(restaurante_praca))
-#print(restaurante_praca.ativo)
+print(vars(restaurante_pizza))
