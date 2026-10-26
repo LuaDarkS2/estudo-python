@@ -47,4 +47,8 @@ Função __init__ = metodo construtor
     * sempre que cria a instancia de um obejto ele é chamado.
     * e ele vai esperar alguma informação.
     * e para conseguir informar que cada objeto tem suas proprias informações, usa self dentro do parenteses
-    
+
+Metodo __str__ = metodo especialment
+    * ele pega o obejto e diz: se precisar mostrar as informações daquele objeto em texto, a gente vai mostrar essa info.
+    * sempre que precisar da parrte textual do obejto, usa self.o que o objeto quer dizer
+    * assim como por o return antes do self
