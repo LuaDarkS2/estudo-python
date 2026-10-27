@@ -28,4 +28,10 @@ Site de simbolos: https://coolsymbol.com/
 
 # colocar _ é como se dizer que aquilo é privado, ou melhor, ele esta sendo protegido.
     # ex: self._ativo = False
-    # 
+    # é bom usar para que não fiquem alterando.
+
+#.title() = Usa quando quer que todas as letras tem a primeira maiuscula.
+
+#.upper() = Usa quando quer que TODAS as letras sejam maiusculas.
+
+# not = quando quer alterar o estado.
