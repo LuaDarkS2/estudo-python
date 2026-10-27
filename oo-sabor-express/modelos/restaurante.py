@@ -15,11 +15,11 @@ class Restaurante:
     def listar_restaurantes():
         print(f'{'Nome do restaurante'.ljust(25)} | {'Categoria'.ljust(25)} | {'Status'}')
         for restaurante in Restaurante.restaurantes:
-            print(f'{restaurante.nome.ljust(25)} | {restaurante.categoria.ljust(25)} | {restaurante._ativo}')
+            print(f'{restaurante.nome.ljust(25)} | {restaurante.categoria.ljust(25)} | {restaurante.ativo}')
 
-@property
-def ativo(self):
-    return '⌧' if self._ativo else '☐'
+    @property
+    def ativo(self):
+        return '⌧' if self._ativo else '☐'
 
 restaurante_praca = Restaurante('Praça','Comida Caseira')
 restaurante_pizza = Restaurante('Pizza','Comida Italiana')
