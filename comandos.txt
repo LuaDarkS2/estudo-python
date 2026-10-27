@@ -1,3 +1,5 @@
+Site de simbolos: https://coolsymbol.com/
+
 # abrir terminal: crtl + j
 
 # mudar coluna das linhas: crtl + [
@@ -23,3 +25,7 @@
 #        print('Finalizar app')
 #    case :
 #        print('Opção inválida!')
+
+# colocar _ é como se dizer que aquilo é privado, ou melhor, ele esta sendo protegido.
+    # ex: self._ativo = False
+    # 
