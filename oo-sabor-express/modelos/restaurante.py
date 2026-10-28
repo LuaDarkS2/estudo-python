@@ -25,11 +25,4 @@ class Restaurante:
     def alternar_estado(self):
         self._ativo = not self._ativo
 
-restaurante_praca = Restaurante('Praça','Comida Caseira')
-restaurante_praca.alternar_estado()
-#restaurante_praca._ativo = True
-#restaurante_praca._nome = 'Praça do Sabor'
-restaurante_pizza = Restaurante('Pizza','Comida Italiana')
 
-
-Restaurante.listar_restaurantes()
