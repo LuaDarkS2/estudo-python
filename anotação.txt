@@ -52,3 +52,9 @@ Metodo __str__ = metodo especialment
     * ele pega o obejto e diz: se precisar mostrar as informações daquele objeto em texto, a gente vai mostrar essa info.
     * sempre que precisar da parrte textual do obejto, usa self.o que o objeto quer dizer
     * assim como por o return antes do self
+
+super() = serve para chamar a classe pai
+    *EX: super().__init__() : serve para chamar o construtor da classe pai(outra classe(principal)),
+     e com isso as classes "menores" não precisam ficar repetindo a inicialização do que estiver dentro da classe pai.
+    *Resumo, usando o super, ele ta usando todas as infor. da classe principal que pedir.
+    *Ele é uma HERANÇA.
