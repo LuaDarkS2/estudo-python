@@ -18,12 +18,16 @@ restaurante_king = Restaurante('Burger King', 'Fast Food')
 bebiba1 = Bebida('Coca-Cola', 5.0, '500ml')
 prato1 = Prato('Pão de Queijo', 3.0, 'Delicioso pão de queijo quentinho')
 
-restaurante_express.adicionar_bebida_no_cardapio(bebiba1)
-restaurante_express.adicionar_prato_no_cardapio(prato1)
+#restaurante_express.adicionar_bebida_no_cardapio(bebiba1)
+#restaurante_express.adicionar_prato_no_cardapio(prato1)
+
+restaurante_express.adicionar_no_cardapio(bebiba1)
+restaurante_express.adicionar_no_cardapio(prato1)
 
 def main():
-    print(bebiba1)
-    print(prato1)
+    restaurante_express.exibir_cardapio()
+    #print(bebiba1)
+    #print(prato1)
     #Restaurante.listar_restaurantes()
 
 if __name__ == '__main__':
