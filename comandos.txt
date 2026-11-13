@@ -35,3 +35,6 @@ Site de simbolos: https://coolsymbol.com/
 #.upper() = Usa quando quer que TODAS as letras sejam maiusculas.
 
 # not = quando quer alterar o estado.
+
+# get = verbo do http, onde vai solicitar um recurso.
+    # um end-point?

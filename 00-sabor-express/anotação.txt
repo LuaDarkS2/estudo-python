@@ -1,0 +1,30 @@
+Ambiente Virtuais
+
+para criar o venv: python -m venv venv
+
+É normal usar o segundo nome no projeto os ambientes chamados de:
+    * venv
+    * env
+    * ...
+
+include: sera todo o cabeçalho.
+
+lib: armazena todos os pacotes que for instalado no ambiente.
+
+Para poder ativar o ambiente virtual, basta acessa o arquivo:
+    * Windows: venv\Scripts\activate.bat
+    * Mac e Linux: source venv/bin/activate
+
+Para poder desativar:
+    * deactivate
+
+Comando para saber o que esta instalado:
+    * pip freeze
+    * pip freeze > requirements.txt
+        * pede para criar um arquivo listando os pacotes instalados
+
+Instalando biblioteca:
+    * requests
+        * pip install requests
+        * caso de erro quando usa o requests, use:
+            * & "C:\Program Files\Python313\python.exe" -m pip install -r "C:\Users\tavar\OneDrive\Ambiente de Trabalho\estudo-python\00-sabor-express\requirements.txt"
